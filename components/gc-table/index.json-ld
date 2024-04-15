@@ -1,0 +1,37 @@
+{
+	"@context": {
+		"@version": 1.1,
+		"dct": "http://purl.org/dc/terms/",
+		"title": { "@id": "dct:title", "@container": "@language" },
+		"description": { "@id": "dct:description", "@container": "@language" },
+		"modified": "dct:modified"
+	},
+	"title": {
+		"en": "GC tables",
+		"fr": "Tableaux GC"
+	},
+	"description": {
+		"en": "A simple CSS solution to turn tables into responsive cards for smaller windows.",
+		"fr": "Une solution CSS simple pour transformer les tables en cartes réactives pour des fenêtres plus petites."
+	},
+	"modified": "2023-09-05",
+	"componentName": "gc-table",
+	"status": "provisional",
+	"todos": [
+		"Add GC specific CSS style"
+	],
+	"pages": {
+		"examples": [
+			{
+				"title": "Tables",
+				"language": "en",
+				"path": "gc-table-en.html"
+			},
+			{
+				"title": "Tableaux",
+				"language": "fr",
+				"path": "gc-table-fr.html"
+			}
+		]
+	}
+}
